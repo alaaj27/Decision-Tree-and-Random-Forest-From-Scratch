@@ -9,8 +9,8 @@ Splice junctions are points on a DNA sequence at which superfluous DNA is remove
 
 
 ## Dependencies :
-	install numpy  	— For math functions.
-	install pandas 	— For using DataFrame functionality.
+	`install numpy`  	— For math functions.
+	`install pandas` 	— For using DataFrame functionality.
 	`install sklearn`  — We use model_selection.train_test_split to split the dataset into training and validation.
 	`install scipy`	— We use scipy.stats to look-up chi table.
 	`install collections.Counter`
@@ -26,11 +26,11 @@ Splice junctions are points on a DNA sequence at which superfluous DNA is remove
 	- utils.py: contains some python functions to facilitate data cleaning and feature extraction.
 	- Dtree.py: responsible for building the decision tree only.
 	- DecisionTreeClassifier.py : responsible for sampling the dataset and start the training process.
-	-
 
-## Functions Description:
 
-# Dtree class:
+# Functions Description:
+
+## Dtree class:
 	- build : building the tree with respect to hyper-parameters and statical tests.
 	- predict: predict a set of rows at once.
 	- predictOne: predict one row at a time.
@@ -40,14 +40,14 @@ Splice junctions are points on a DNA sequence at which superfluous DNA is remove
 	- GiniIndex, MCE, Entropy: Implementations for the impurity metrics
 
 
-# DecisionTreeClassifier class:
+## DecisionTreeClassifier class:
 	- fit: start the training process
 	- predict: call predict methods in Dtree to predict set of rows.
 	- accuracy_score: calculate the accuracy score for a given X and y.
 	- ensemble: responsible for sampling and bagging. If n_ensembles parameter is greater than 1, this function will be called to create a forest.
 
 
-# Utils file:
+## Utils file:
 	- replace : given a string return a new a string with a char replaced randomly from a given list.
 	- split: Split a string into chunks based on chunk_size
 	- n_grams :Split the samples into features of grams based into chunk_size
