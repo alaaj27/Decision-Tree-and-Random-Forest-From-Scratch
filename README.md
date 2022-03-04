@@ -1,9 +1,16 @@
+
+
 # Decision Trees and Random Forest implementation in python
 
 We provide a python implementation for Decision Tree and Random Forest in python. We use different splitting criteria such as Information gain with Entropy, GiniIndex, and Miss-Classification Error. Chi_square test is performed on every feature to determine the importance of that node for the tree. Moreover, we use other stopping criteria metrics such as MAX_DEPTH and minimumSampleSize of the tree to avoid overfitting.
 
+
+
 # Problem Description
+## I was able to maintain [the first position](https://www.kaggle.com/c/cs529project1-2022/leaderboard) on the public leaderboard on Kaggle.
+
 [The link](https://www.kaggle.com/c/cs529project1-2022/overview) for the competition on Kaggle.
+
 
 Splice junctions are points on a DNA sequence at which superfluous DNA is removed during the process of protein creation in higher organisms. The problem posed in this dataset is to recognise, given a sequence of DNA, the boundaries between exons (the parts of the DNA sequence retained after splicing) and introns (the parts of the DNA sequence that are spliced out). This problem consists of two subtasks: recognising exon/intron boundaries (referred to as EI sites), and recognising intron/exon boundaries (IE sites). (In the biological community, IE borders are referred to as ""acceptors"" while EI borders are referred to as ""donors"".)
 
