@@ -7,7 +7,7 @@ We provide a python implementation for Decision Tree and Random Forest in python
 
 
 # Problem Description
-## I was able to maintain [the first position](https://www.kaggle.com/c/cs529project1-2022/leaderboard) on the public leaderboard on Kaggle.
+## I was able to maintain [the first position](https://www.kaggle.com/c/cs529project1-2022/leaderboard) on both the public and the private leaderboards on Kaggle.
 
 [The link](https://www.kaggle.com/c/cs529project1-2022/overview) for the competition on Kaggle.
 
